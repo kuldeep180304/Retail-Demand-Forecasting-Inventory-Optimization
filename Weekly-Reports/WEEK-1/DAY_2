@@ -3,3 +3,8 @@ Work Done: Wrote Python scripts to load the M5 dataset into the data warehouse.
 Learning Outcome: Learned how to automate data loading using Python.
 Status: Completed
 -----------------------------------------------------------------------------------
+Name: Shraddha Karmale
+Work Done: Verified dataset integrity before loading into the warehouse.
+Learning Outcome: Learned the importance of validating raw datasets.
+Status:  Completed
+----------------------------------------------------------------------------------
