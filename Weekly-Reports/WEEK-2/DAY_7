@@ -1,1 +1,5 @@
-
+Name: Kuldeep Upadhyay
+Work Done: Created the initial dbt models for cleaning and transforming raw sales data.
+Learning Outcome: Learned how to build reusable transformation models using dbt.
+Status: Completed
+------------------------------------------------------------------------------------------
