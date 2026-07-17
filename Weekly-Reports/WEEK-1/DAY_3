@@ -7,3 +7,9 @@ Name: Swaroop Sharma
 Work Done: Prepared SQL queries to inspect the imported data.
 Learning Outcome: Learned how SQL helps validate loaded datasets.
 Status:  Completed
+------------------------------------------------------------------------------------------
+Name: Shraddha Karmale
+Work Done: Checked imported tables and validated record counts.
+Learning Outcome: Learned methods for verifying successful data imports.
+Status:  Completed
+-------------------------------------------------------------------------------------------
