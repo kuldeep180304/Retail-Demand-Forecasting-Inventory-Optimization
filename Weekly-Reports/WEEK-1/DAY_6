@@ -7,3 +7,9 @@ Name: Swaroop Sharma
 Work Done: Documented the dbt setup process and project configuration.
 Learning Outcome: Learned how proper documentation improves project reproducibility.
 Status:  Completed
+--------------------------------------------------------------------------------------------
+Name: Shraddha Karmale
+Work Done: Verified the dbt environment and tested the database connection.
+Learning Outcome: Learned the importance of validating data warehouse connectivity.
+Status:  Completed
+-----------------------------------------------------------------------------------------
