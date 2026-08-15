@@ -1,1 +1,1 @@
-# Retail-Demand-Forecasting-Inventory-Optimization
+Walmart Retail Demand Forecasting & Inventory Optimization
