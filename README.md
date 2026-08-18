@@ -1,97 +1,72 @@
 
-````markdown
-# 📊 Retail Demand Forecasting & Inventory Optimization
+📊 Retail Demand Forecasting & Inventory Optimization
+📌 Project Overview
 
-## 📌 Project Overview
+Retail Demand Forecasting & Inventory Optimization is a data analytics and machine learning project developed using Walmart historical sales data. The project analyzes weekly sales, store performance, seasonal trends, holiday impact, and external factors such as temperature, fuel price, CPI, and unemployment.
 
-Retail Demand Forecasting & Inventory Optimization is a data analytics and machine learning project developed using **Walmart historical sales data**. The project analyzes weekly sales, store performance, seasonal trends, holiday impact, and external factors such as temperature, fuel price, CPI, and unemployment.
+The project combines Python, Machine Learning, and Power BI to transform historical retail data into meaningful business insights that can support better demand analysis and inventory planning.
 
-The project combines **Python, Machine Learning, and Power BI** to transform historical retail data into meaningful business insights that can support better demand analysis and inventory planning.
+🎯 Objectives
+No.	Objective
+1	Analyze Walmart's historical sales performance.
+2	Identify sales and seasonal demand patterns.
+3	Compare performance across different stores.
+4	Analyze the impact of holidays and external factors.
+5	Perform data preprocessing and feature engineering.
+6	Select important features using VIF.
+7	Build and compare regression models.
+8	Evaluate model performance.
+9	Create an interactive Power BI dashboard.
+10	Generate useful business insights for retail planning.
+📂 Dataset
 
----
+Dataset: Walmart Historical Sales Dataset
 
-## 🎯 Objectives
+The dataset contains 6,435 records from 45 Walmart stores, with Weekly_Sales as the target variable.
 
-- Analyze Walmart's historical sales performance.
-- Identify sales and seasonal demand patterns.
-- Compare performance across different stores.
-- Analyze the impact of holidays and external factors.
-- Perform data preprocessing and feature engineering.
-- Select important features using VIF.
-- Build and compare regression models.
-- Evaluate model performance.
-- Create an interactive Power BI dashboard.
-- Generate useful business insights for retail planning.
-
----
-
-## 📂 Dataset
-
-**Dataset:** Walmart Historical Sales Dataset
-
-The dataset contains **6,435 records from 45 Walmart stores**, with `Weekly_Sales` as the target variable.
-
-### Main Features
-
-- `Store` – Walmart store identification number
-- `Date` – Weekly sales date
-- `Weekly_Sales` – Weekly sales amount
-- `Holiday_Flag` – Indicates holiday weeks
-- `Temperature` – Weekly temperature
-- `Fuel_Price` – Fuel price
-- `CPI` – Consumer Price Index
-- `Unemployment` – Unemployment rate
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- Statsmodels
-- Jupyter Notebook
-- Power BI
-- Git & GitHub
-
----
-
-## 🔄 Project Workflow
+Main Features
+Feature	Description
+Store	Walmart store identification number
+Date	Weekly sales date
+Weekly_Sales	Weekly sales amount
+Holiday_Flag	Indicates holiday weeks
+Temperature	Weekly temperature
+Fuel_Price	Fuel price
+CPI	Consumer Price Index
+Unemployment	Unemployment rate
+🛠️ Technologies Used
+Category	Technology
+Programming Language	Python
+Data Analysis	Pandas, NumPy
+Data Visualization	Matplotlib, Seaborn
+Machine Learning	Scikit-Learn
+Statistical Analysis	Statsmodels
+Development Environment	Jupyter Notebook
+Dashboard	Power BI
+Version Control	Git & GitHub
+🔄 Project Workflow
 
 The project follows a complete data analytics and machine learning workflow, starting from Walmart's raw historical sales data and ending with business insights through Power BI.
 
-![Project Workflow](images/workflow.png)
+Workflow Steps
+Step	Process
+1	Walmart Historical Sales Data
+↓	Data Preprocessing
+↓	Feature Engineering
+↓	Exploratory Data Analysis
+↓	Feature Selection using VIF
+↓	Feature Scaling
+↓	PCA
+↓	Regression Modeling
+↓	Model Evaluation
+↓	Power BI Dashboard
+↓	Business Insights
+Workflow Diagram
 
-### Workflow Steps
+Add your workflow image here:
 
-```text
-Walmart Historical Sales Data
-            ↓
-      Data Preprocessing
-            ↓
-      Feature Engineering
-            ↓
- Exploratory Data Analysis
-            ↓
- Feature Selection using VIF
-            ↓
-      Feature Scaling
-            ↓
-             PCA
-            ↓
-    Regression Modeling
-            ↓
-      Model Evaluation
-            ↓
-     Power BI Dashboard
-            ↓
-      Business Insights
-````
+<img width="952" height="635" alt="Workflow" src="https://github.com/user-attachments/assets/323001a3-f0d5-494e-8abd-3bacd33d0633" />
 
----
 
 ## 🧹 Data Preprocessing
 
@@ -195,7 +170,8 @@ An interactive **Walmart Retail Sales Dashboard** was created using Microsoft Po
 
 The dashboard provides a simple and interactive way to understand Walmart's sales performance and demand patterns.
 
-![Power BI Dashboard](images/dashboard.png)
+<img width="1305" height="721" alt="Dashboard" src="https://github.com/user-attachments/assets/2c902da0-8a2d-4137-ab4f-7176789107e5" />
+
 
 ### Dashboard Includes
 
@@ -314,14 +290,6 @@ This project demonstrates how **Walmart historical sales data** can be transform
 
 It provides a strong foundation for understanding **retail demand patterns, store performance, and inventory planning**, while also demonstrating practical skills in data analysis, predictive modeling, and business intelligence.
 
-````
 
-**For the two images**, keep them inside your GitHub `images` folder with exactly these names:
-
-```text
-images/
-├── dashboard.png
-└── workflow.png
-````
 
 
